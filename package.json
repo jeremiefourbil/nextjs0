@@ -1,0 +1,23 @@
+{
+  "name": "nextjs0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jeremiefourbil/nextjs0.git",
+  "author": "Jérémie FOURBIL <jeremie.fourbil@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.2.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.4",
+    "@types/react": "^16.9.22",
+    "typescript": "^3.8.2"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
