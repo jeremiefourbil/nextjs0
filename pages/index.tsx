@@ -1,7 +1,10 @@
 import { NextPage } from 'next';
 
 const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => (
-  <h1>Hello world! - user agent: {userAgent}</h1>
+  <div>
+    <h1>Hello world!</h1>
+    <h2>user agent: {userAgent}</h2>
+  </div>
 );
 
 Home.getInitialProps = async ({ req }) => {
