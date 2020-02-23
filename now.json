@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "nextjs0",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/next"
+    },
+    {
+      "src": "api/index.go",
+      "use": "@now/go"
+    }
+  ]
+}
