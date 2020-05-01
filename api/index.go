@@ -1,8 +1,8 @@
 package api
 
 import (
-	"api/routes"
 	"github.com/gorilla/mux"
+	"github.com/jeremiefourbil/nextjs0/api/routes"
 	"net/http"
 )
 
