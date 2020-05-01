@@ -1,4 +1,4 @@
-module github.com/jeremiefourbil/nextjs0/api
+module api
 
 go 1.13
 
