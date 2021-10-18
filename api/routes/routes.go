@@ -8,7 +8,7 @@ import (
 
 func GetTime(w http.ResponseWriter, r *http.Request) {
 	currentTime := time.Now().Format(time.RFC850)
-	fmt.Fprintf(w, currentTime)
+	fmt.Fprintf(w, "%s", currentTime)
 }
 
 func GetToto(w http.ResponseWriter, r *http.Request) {
