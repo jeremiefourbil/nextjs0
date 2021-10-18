@@ -4,14 +4,14 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@now/next"
+      "use": "@vercel/next"
     },
     {
       "src": "api/index.go",
-      "use": "@now/go"
+      "use": "@vercel/go"
     }
   ],
-  "routes": [
-    { "src": "/api/(.*)", "dest": "api/index.go" }
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "api/index.go" }
   ]
 }
