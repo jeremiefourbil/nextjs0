@@ -3,7 +3,8 @@
   "name": "nextjs0",
   "functions": {
       "api/index.go": {
-        "maxDuration": 5
+        "maxDuration": 5,
+        "runtime": "@vercel/go"
       }
   },
   "rewrites": [
