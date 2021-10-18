@@ -1,16 +1,9 @@
 {
   "version": 2,
   "name": "nextjs0",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next"
-    },
-    {
-      "src": "api/index.go",
-      "use": "@vercel/go"
-    }
-  ],
+  "functions": {
+      "api/index.go": {}
+  },
   "rewrites": [
     { "source": "/api/(.*)", "destination": "api/index.go" }
   ]
