@@ -4,7 +4,7 @@
   "functions": {
       "api/index.go": {
         "maxDuration": 5,
-        "runtime": "@vercel/go"
+        "runtime": "@vercel/go@1.2.2"
       }
   },
   "rewrites": [
