@@ -2,7 +2,9 @@
   "version": 2,
   "name": "nextjs0",
   "functions": {
-      "api/index.go": {}
+      "api/index.go": {
+        "maxDuration": 5
+      }
   },
   "rewrites": [
     { "source": "/api/(.*)", "destination": "api/index.go" }
